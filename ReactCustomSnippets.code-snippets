@@ -1,0 +1,29 @@
+{
+	"React Functional Component": {
+		"scope": "javascript, typescript",
+		"prefix": "rfc",
+		"body": [
+			"const fc = () => {\n",
+			"\treturn(",
+			"\t\t<>\n",
+			"\t\t</>",
+			"\t)",
+			"}\n",
+			"export default fc"
+			],
+		"description": "output a functional component template"
+	},
+	"Implement Reducer Function": {
+		"scope": "javascript, typescript",
+		"prefix": "irf",
+		"body": [
+			"const reducer = (state, {type, payload}) => {\n",
+			"\tswitch(type){",
+			"\t\tdefault:",
+			"\t\t\treturn state",
+			"\t}",
+			"}"
+		],
+		"description": "output a reducer function template for useReducer"
+	}
+}
